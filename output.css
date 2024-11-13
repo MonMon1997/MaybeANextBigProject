@@ -93,8 +93,7 @@
 
 .carousel-inner img {
   height: 500px; /* Set your desired height here */
-  -o-object-fit: cover;
-     object-fit: cover; /* Ensures the image covers the set height without distortion */
+  object-fit: cover; /* Ensures the image covers the set height without distortion */
   transition: 1s;
 }
 
@@ -125,4 +124,6 @@
   .carousel_title {
     font-size: 0px;
   }
-}/*# sourceMappingURL=index.css.map */
+}
+
+/*# sourceMappingURL=output.css.map */
