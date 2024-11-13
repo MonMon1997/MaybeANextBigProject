@@ -13,8 +13,7 @@
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
-  align-items: center;
-  gap: 20px;
+  align-items: start;
 }
 
 .navbar_title {
@@ -98,6 +97,23 @@
   transition: 1s;
 }
 
+.flex_title, .flex_container_1, .flex_container_2 {
+  text-align: center;
+}
+
+.flex_title {
+  color: #134467;
+  font-family: "Euphoria";
+  font-weight: 600;
+  font-size: 3.5rem;
+}
+
+.flex_container_1, .flex_container_2 {
+  flex: 50%;
+  border: 1px solid #ccc;
+  padding: 30px 15px;
+}
+
 @media (min-width: 992px) {
   #navbar-toggler-icon {
     display: none;
@@ -110,8 +126,6 @@
   .list-ul {
     display: none;
   }
-}
-@media (max-width: 992px) {
   .carousel_title {
     font-size: 60px;
   }
@@ -123,6 +137,6 @@
 }
 @media (max-width: 650px) {
   .carousel_title {
-    font-size: 0px;
+    font-size: 40px;
   }
 }/*# sourceMappingURL=index.css.map */
