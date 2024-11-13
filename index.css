@@ -5,3 +5,94 @@
     align-items: center;
     gap: 20px;
 }
+
+.navbar_title{
+   
+    background-color: #134467;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.logo_link{
+   
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    display: inline-block;
+    
+}
+
+.logo_link:focus{
+   
+    border: 1px solid black;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.list-ul{
+   
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    list-style-type: none;
+
+}
+
+.list-link{
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 10px;
+    color: white;    
+}
+
+.list-link:hover{
+   
+    opacity: 0.7;
+}
+
+#reservation-button{
+   
+    background-color: white;
+    padding: 10px 20px;
+    border: 3px solid red;
+    color: red;
+}
+
+#reservation-button:hover{
+   
+    background-color: red;
+    padding: 10px 20px;
+    border: 3px solid red;
+    color: white;
+    transition: 0.5s ease-in;
+}
+
+#boathouse_img{
+   
+    width: 120px;
+}
+
+@media (min-width:992px) {
+    #navbar-toggler-icon{
+        display: none;
+    }
+    #boathouse_img{
+        width: 200px;
+    }
+}
+
+@media (max-width:992px) {
+    .list-ul{
+        display: none;
+    }
+}
