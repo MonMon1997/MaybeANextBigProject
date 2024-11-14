@@ -130,9 +130,10 @@
 .text_but{
     color: white;
     background-color: #134467;
-    padding: 10px 80px;
+    padding: 10px 30px;
     border: none;
     text-align: center;
+    white-space: nowrap;
 }
 
 .text_but:hover{
@@ -146,9 +147,7 @@
     gap: 10px;
     justify-content: center;
     align-items: center;
-
 }
-
 
 @media (min-width:992px) {
     #navbar-toggler-icon{
@@ -165,18 +164,20 @@
     }
     .carousel_title{
         font-size: 60px;
-        }
+    }
 }
-
-
-
 
 @media (max-width:768px) {
     .carousel_title{
     font-size: 50px;
     }
+    .flex_container{
+        flex-flow: row wrap;
+    }
+    .flex_container_1, .flex_container_2{
+        flex: 100%;
+    }
 }
-
 
 @media (max-width:650px) {
     .carousel_title{
