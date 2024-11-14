@@ -123,7 +123,7 @@
 
 .flex_container_1, .flex_container_2{
     flex: 50%;
-    border: 1px solid #ccc;
+   
     padding: 30px 15px;
 }
 
@@ -148,6 +148,23 @@
     justify-content: center;
     align-items: center;
 }
+
+.menu{
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.grid_button_menu{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    width: 60%;
+    margin: auto;
+}
+
 
 @media (min-width:992px) {
     #navbar-toggler-icon{
