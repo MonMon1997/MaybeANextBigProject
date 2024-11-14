@@ -127,6 +127,27 @@
     padding: 30px 15px;
 }
 
+.text_but{
+    color: white;
+    background-color: #134467;
+    padding: 10px 80px;
+    border: none;
+    text-align: center;
+}
+
+.text_but:hover{
+    transition: 0.5s;
+    background-color: #0a304a;
+}
+
+.grid_button{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
 
 
 @media (min-width:992px) {
