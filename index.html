@@ -164,8 +164,12 @@
       <h1 style="color: #134467">MENU</h1>
       <p>*Menus items and prices are subject to change.</p>
       <div class="grid_button_menu">
-        <button type="button" class="text_but">HAPPY HOUR</button>
-        <button type="button" class="text_but">BREAKFAST MENU</button>
+        <button type="button" class="text_but" id="happyhour">
+          HAPPY HOUR
+        </button>
+        <button type="button" class="text_but" id="breakfastmenu">
+          BREAKFAST MENU
+        </button>
         <button type="button" class="text_but">BRUNCH</button>
         <button type="button" class="text_but">LUNCH MENU</button>
         <button type="button" class="text_but">MAIN MENU</button>
@@ -174,8 +178,112 @@
         <button type="button" class="text_but">DESSERTS</button>
       </div>
       <br />
-      <p>Monday through Friday 2:00 PM to 5:00 PM in the bar.</p>
-      <p>Available with a minimum beverage purchase of $3.25 per person.</p>
+
+      <div id="menu_happyhour">
+        <p>Monday through Friday 2:00 PM to 5:00 PM in the bar.</p>
+        <p>Available with a minimum beverage purchase of $3.25 per person.</p>
+        <div class="menu_circle">
+          <h3 class="menu_circle_title">FRESH OYSTERS</h3>
+          <p>Oyster Shucks*</p>
+          <p><b>3</b></p>
+          <p>Premium Oyster Shucks*</p>
+          <p><b>4</b></p>
+        </div>
+
+        <div class="menu_circle">
+          <h3 class="menu_circle_title">$7</h3>
+          <p>Tempura Shrimp Sticks</p>
+          <p>Crispy Shishito Peppers</p>
+          <p>House Marinated Olives</p>
+        </div>
+
+        <div class="menu_circle">
+          <h3 class="menu_circle_title">$9</h3>
+          <p>Truffled Brussels Sprouts</p>
+          <p>Coconut Crunchy Shrimp</p>
+          <p>Truffle Fries</p>
+        </div>
+      </div>
+      <div id="menu_breadfast">
+        <p><b>Served Monday - Friday from 6:30AM - 11:00AM</b></p>
+        <p><b>Saturday & Sunday from 9:00AM - 11:00AM</b></p>
+
+        <div class="menu_circle">
+          <h3 class="menu_circle_title">BREAKFAST</h3>
+          <div class="menu_flex">
+            <div class="menu_box">
+              <p><b>Classic Breakfast</b></p>
+              <p>
+                2 eggs | bacon or sausage | roasted potato hash | multigrain
+                toastp
+              </p>
+              <p><b>18</b></p>
+            </div>
+
+            <div class="menu_box">
+              <p><b>Classic Benny</b></p>
+              <p>
+                Canadian back bacon | English muffin | roasted potato hash house
+                hollandaise
+              </p>
+              <p><b>20</b></p>
+            </div>
+
+            <div class="menu_box">
+              <p><b>West Coast Benny Trio</b></p>
+              <p>
+                smoked salmon lox | crab + shrimp | Canadian back bacon roasted
+                potato hash | house hollandaise
+              </p>
+              <p><b>27</b></p>
+            </div>
+
+            <div class="menu_box">
+              <p><b>Three Cheese Omelette</b></p>
+              <p>
+                aged cheddar | asiago | romano | roasted potato hash multigrain
+                toast
+              </p>
+              <p><b>18</b></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu_circle">
+          <h3 class="menu_circle_title">SIDES + ADDITIONS</h3>
+          <div class="menu_flex">
+            <div class="menu_box">
+              <p><b>Seasonal Fruit Bowl</b></p>
+              <p><b>6</b></p>
+            </div>
+
+            <div class="menu_box">
+              <p><b>Bacon Strips (3)</b></p>
+              <p><b>6</b></p>
+            </div>
+
+            <div class="menu_box">
+              <p><b>Canadian Back Bacon (3)</b></p>
+              <p><b>6</b></p>
+            </div>
+
+            <div class="menu_box">
+              <p><b>Breakfast Sausage (2)</b></p>
+              <p><b>6</b></p>
+            </div>
+
+            <div class="menu_box">
+              <p><b>Sourdough or Multigrain Toast</b></p>
+              <p><b>4</b></p>
+            </div>
+
+            <div class="menu_box">
+              <p><b>Roasted Red Pepper And Portobello Hash</b></p>
+              <p><b>8</b></p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <script src="index.js"></script>
